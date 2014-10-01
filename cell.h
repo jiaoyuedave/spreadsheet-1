@@ -5,7 +5,8 @@
 
 class Cell : public QTableWidgetItem
 {
-public:
+
+public:    
     Cell();
 
     QTableWidgetItem *clone() const;
@@ -25,4 +26,4 @@ private:
     mutable bool cacheIsDirty;
 };
 
-#endif
+#endif // CELL_H
