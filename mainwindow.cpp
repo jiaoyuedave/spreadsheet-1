@@ -1,7 +1,7 @@
 #include <QtGui>
 
 #include "finddialog.h"
-#include "gotocell.h"
+#include "gotocelldialog.h"
 #include "mainwindow.h"
 #include "sortdialog.h"
 #include "spreadsheet.h"
