@@ -12,29 +12,26 @@ TARGET = spreadsheet
 TEMPLATE = app
 
 HEADERS += \
-    gotocell.h \
     mainwindow.h \
-    sortdialog.h \
-    ui_gotocell.h \
-    ui_mainwindow.h \
-    ui_sortdialog.h \
+    sortdialog.h \   
     finddialog.h \
+    gotocelldialog.h \
     spreadsheet.h \
     cell.h
 
 SOURCES += \
-    gotocell.cpp \
     main.cpp \
     mainwindow.cpp \
     sortdialog.cpp \
     finddialog.cpp \
+    gotocelldialog.cpp \
     spreadsheet.cpp \
     cell.cpp
 
 FORMS += \
-    gotocell.ui \
     mainwindow.ui \
-    sortdialog.ui
+    sortdialog.ui \
+    gotocelldialog.ui
 
 RESOURCES += \
     spreadsheet.qrc
